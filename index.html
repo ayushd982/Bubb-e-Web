@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bubbles App</title>
+    <link rel="stylesheet"type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Bubbles App</h1>
+    <main class="border">
+      <div class="container">
+        <div class="row">
+          <div class="circle" id="circle-1"  onclick="yellowRow()"></div>
+          <img src= "../img/arrow.jpeg"id="arrow-1" class="img" alt="" />
+        </div>
+        <div class="row">
+          <div class="circle" id="circle-2" onclick="blueRow()"></div>
+          <img src="../img/arrow.jpeg" id="arrow-2" class="img" alt="" />
+        </div>
+        <div class="row">
+          <div class="circle" id="circle-3" onclick="redRow()"></div>
+          <img src="../img/arrow.jpeg" id="arrow-3" class="img" alt="" />
+        </div> 
+        <div class="row">
+          <div class="circle" id="circle-4" onclick="greenRow()"></div>
+          <img src="../img/arrow.jpeg" id="arrow-4" class="img" alt="" />
+        </div>
+      </div>
+    </main> 
+    <div class="rbtn" >
+      <input type="reset" onclick="reset()" value="Reset"></input> 
+    </div>   
+  </body>
+  <script src="../index.js"></script>
+</html> 

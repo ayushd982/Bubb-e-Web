@@ -1,0 +1,108 @@
+h1{
+    text-align: center;
+}
+.border {
+    
+    margin-left: 500px;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+      }
+  
+.container .row {
+    width: 300px;
+    display: flex;
+    align-items: center;
+  }
+.circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+#circle-1{
+    background-color: yellow;
+}
+#circle-2{
+   background-color: blue;
+} 
+
+#circle-3{
+   background-color: red;
+} 
+
+#circle-4{
+   background-color: green;
+}
+/* (If you are not uding arrow picture then , use this CSS for creating the arrow ) */
+/* .arrow{
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: black;
+    position:relative;
+    top: 50px;
+    
+}
+.arrow:before{
+    content:"";
+    display:inline-block;
+    width:40px;
+    height: 4px;
+    background-color: black;
+    transform:rotate(-45deg);
+    position:absolute;
+    left:-6px;
+    top:-13px;
+}
+.arrow:after{
+    content:"";
+    display:inline-block;
+    width:40px;
+    height: 4px;
+    background-color: black;
+    transform:rotate(45deg);
+    position:absolute;
+    left:-6px;
+    top:13px;
+} */
+.img {
+    width: 30px;
+    height: auto;
+  }
+.container #arrow-1 {
+    margin-left: 220px;
+  }
+.container #arrow-2 {
+    margin-left: 220px;
+  }
+.container #arrow-3 {
+    margin-left: 220px;
+  }
+.container #arrow-4 {
+    margin-left: 220px;
+  }
+
+.rbtn{
+    text-align: center;
+    margin-top: 12px;
+}
+input[type="Reset"] {
+   background-color: black;
+   color: white;
+   width: 100px; 
+   height: 30px;
+   border: 1px solid red;
+   cursor: pointer;
+}
